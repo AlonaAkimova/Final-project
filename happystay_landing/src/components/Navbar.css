@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #fdf2e9;
+  background-color: #e9faf8;
   padding: 0 4.8rem;
   height: 9.6rem;
   text-decoration: none;
@@ -38,11 +38,11 @@ nav {
 }
 
 .contact-link {
-  padding: 10px;
+  padding: 12px;
   border-radius: 9px;
-  background-color: #e67e22;
+  background-color: #77d5c8;
 }
 .contact-link:hover,
 .contact-link:visited {
-  background-color: #e67e22;
+  background-color: #a6f5ea;
 }

@@ -23,11 +23,7 @@ export default function Main() {
           />
         </div>
         <div className="img-box">
-          <img
-            src="./pages/img/pexels.jpg"
-            class="hero-img"
-            alt="breakfast image"
-          />
+          <img src="./pexels.jpg" className="hero-img" alt="breakfast image" />
         </div>
       </div>
     </section>
