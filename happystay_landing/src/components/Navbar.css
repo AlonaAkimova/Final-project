@@ -1,0 +1,47 @@
+.navbar {
+  background-color: #fdf2e9;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.links a {
+  margin-left: 20px;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: #666;
+}
+
+.contact-link {
+  padding: 10px;
+  border-radius: 9px;
+  background-color: #e67e22;
+}
+.contact-link:hover,
+.contact-link:visited {
+  background-color: #e67e22;
+}
