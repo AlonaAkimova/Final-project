@@ -1,7 +1,7 @@
 .navbar {
   background-color: #fdf2e9;
-  padding: 10px;
-  margin-bottom: 10px;
+  padding: 0 4.8rem;
+  height: 9.6rem;
   text-decoration: none;
 }
 
@@ -25,9 +25,10 @@ nav {
   gap: 3.2rem;
 }
 
-.links a {
+.main-nav a {
   margin-left: 20px;
-  font-size: 18px;
+  font-size: 1.6rem;
+  font-weight: 500;
   color: #333;
   text-decoration: none;
 }

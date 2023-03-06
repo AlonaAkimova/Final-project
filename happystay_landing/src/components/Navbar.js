@@ -10,7 +10,7 @@ export default function Navbar() {
         <Link to="/">
           <h1 className="logo">Happy Stay</h1>
         </Link>
-        <div className="links">
+        <div className="main-nav">
           <Link to="/about">Jak to działa</Link>
           <Link to="/blog">Blog</Link>
           <Link to="/contact" className="contact-link">
