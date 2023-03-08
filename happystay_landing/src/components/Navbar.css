@@ -46,3 +46,22 @@ nav {
 .contact-link:visited {
   background-color: #a6f5ea;
 }
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.2rem;
+  width: 4.6rem;
+  color: #333;
+}
+
+@media (max-width: 544px) {
+  .btn-mobile-nav {
+    display: block;
+  }
+}
