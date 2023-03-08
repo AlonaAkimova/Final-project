@@ -3,14 +3,34 @@ import "./BlogList.css";
 import React from "react";
 
 export default function BlogList({ articles }) {
+  const article1 = articles[0];
+  const article2 = articles[1];
+  const article3 = articles[2];
+  const article4 = articles[3];
+
   return (
     <div className="section-blog">
-      {articles.map((article) => (
-        <div key={article.id}>
-          <h3 className="heading-secondary">{article.title}</h3>
-          <p className="cta-text">{article.content}</p>
-        </div>
-      ))}
+      <h3>Nasz Blog</h3>
+
+      <div>
+        <h3 className="heading-secondary">{article1.title}</h3>
+        <p className="cta-text">{article1.content}</p>
+      </div>
+
+      <div>
+        <h3 className="heading-secondary">{article2.title}</h3>
+        <p className="cta-text">{article2.content}</p>
+      </div>
+
+      <div>
+        <h3 className="heading-secondary">{article3.title}</h3>
+        <p className="cta-text">{article3.content}</p>
+      </div>
+
+      <div>
+        <h3 className="heading-secondary">{article4.title}</h3>
+        <p className="cta-text">{article4.content}</p>
+      </div>
     </div>
   );
 }
