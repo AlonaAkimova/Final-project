@@ -46,9 +46,10 @@
 }
 
 .hero-img {
-  border-radius: 9px;
+  border-radius: 10px;
   display: block;
   max-width: 80%;
+  padding: 1rem;
 }
 
 @media (max-width: 768px) {
