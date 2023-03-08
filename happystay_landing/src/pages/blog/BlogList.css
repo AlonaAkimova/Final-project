@@ -47,6 +47,11 @@
   overflow: hidden;
   width: 100%;
 }
+.post-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .cta-text {
   font-size: 1em;
   text-align: left;
