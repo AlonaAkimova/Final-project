@@ -11,7 +11,7 @@ export default function AboutUs() {
           Proces złożenia zamówienia ze strony gościa
         </h2>
       </div>
-      <div className="container grid grid--2-cols grid--center-v">
+      <div className="container about grid--2-cols grid--center-v">
         <div className="step-text-box">
           <h3 className="heading-tertiary">Uruchomienie aplikacji</h3>
           <p className="step-description">

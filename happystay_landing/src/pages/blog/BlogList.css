@@ -3,11 +3,9 @@
 }
 
 .blog-grid {
-  background: #e9faf8;
+  background: #fff;
   padding: 20px 20px 20px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
 }
 
 .section-blog {
@@ -31,7 +29,7 @@
 
 [class*="col-"] {
   float: left;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 .post-wrap {
