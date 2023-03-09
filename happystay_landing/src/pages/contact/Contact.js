@@ -45,7 +45,6 @@ export default function Contact() {
   const showSuccess = () => {
     toast.current.show({
       severity: "success",
-
       detail: "Wiadomość wysłana",
     });
   };
