@@ -1,6 +1,7 @@
 import "./Main.css";
 import React from "react";
 import { Button } from "primereact/button";
+import { Link } from "react-router-dom";
 
 export default function Main() {
   return (
@@ -15,12 +16,16 @@ export default function Main() {
             zamówić śniadanie pod drzwi bez żadnych formularzy oraz dodatkowych
             kontaktów z recepcja.
           </p>
-          <Button label="Jak to działa" className="btn btn--full" />
-          <Button
-            label="Blog"
-            severity="secondary"
-            className="btn btn--outline"
-          />
+          <Link to="/about">
+            <Button label="Jak to działa" className="btn btn--full" />
+          </Link>
+          <Link to="/Contact">
+            <Button
+              label="Kontakt"
+              severity="secondary"
+              className="btn btn--outline"
+            />
+          </Link>
         </div>
         <div className="img-box">
           <img src="./pexels.jpg" className="hero-img" alt="breakfast" />
