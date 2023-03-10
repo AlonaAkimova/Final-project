@@ -13,7 +13,7 @@ export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [isPending, setIsPending] = useState(false);
-  const toast = useRef(null); // create a ref using useRef
+  const toast = useRef(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -42,12 +42,12 @@ export default function Contact() {
     setMessage("");
   };
 
-  const showSuccess = () => {
-    toast.current.show({
-      severity: "success",
-      detail: "Wiadomość wysłana",
-    });
-  };
+  // const showSuccess = () => {
+  //   toast.current.show({
+  //     severity: "success",
+  //     detail: "Wiadomość wysłana",
+  //   });
+  // };
 
   return (
     <section className="section-contact">
@@ -92,12 +92,11 @@ export default function Contact() {
                   cols={30}
                 />
               </div>
-              <Toast ref={toast} position="bottom-right" />
+              <Toast ref={toast} className="toast" />
               <Button
                 className="btn-send"
                 label="Wyślij"
                 style={{ background: isPending ? "#ccc" : "#e9faf8" }}
-                onClick={showSuccess}
               />
             </form>
           </div>

@@ -25,6 +25,7 @@
 .cta-img-box {
   background-position: center;
   background-size: cover;
+  border-radius: 10px;
 }
 
 .cta-text {
@@ -67,6 +68,12 @@
   font-weight: 500;
   width: 50%;
   cursor: pointer;
+}
+
+.toast {
+  position: bottom-right;
+  padding: 20px;
+  font-size: 24px;
 }
 
 @media screen and (max-width: 768px) {
