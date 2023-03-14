@@ -10,9 +10,11 @@ Happy Stay - simple landing page for selling a web application.
 ## Description
 In the project directory, you can run:
 
-npm start
+## npm start
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
+
+##
 Landing page keeps data in Firebase, so all the content can be easily changed and rendered in the page.
 You will also see any lint errors in the console.
 
